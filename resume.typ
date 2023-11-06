@@ -1,7 +1,7 @@
 #set text(font: "Inter", fill: rgb("#222222"), hyphenate: false)
 #show heading: set text(font: "General Sans", tracking: 1em/23)
 
-#show link: underline
+#show link: set text(10pt)
 #set page(
  margin: (x: 1.1cm, y: 1.3cm),
 )
@@ -9,44 +9,39 @@
 
 #let chiline() = {v(-2pt); line(length: 100%, stroke: rgb("#777777")); v(-5pt)}
 
-#text(15pt)[= BELLATRIX LESTRANGE]
+#text(15pt)[= JIM WELL JOHN BALATERO]
+#text(15pt)[Senior Fullstack Engineer]
 
-#link("mailto:notme@ucla.edu")[definitelynotme\@ucla.edu] #text(gray)[$space.hair$|$space.hair$] #link("https://mzchael.com")[mzchael.com] #text(gray)[$space.hair$|$space.hair$] #link("https://github.com/mizlan")[github.com/mizlan] #text(gray)[$space.hair$|$space.hair$] #link("https://linkedin.com/in/not-me")[linkedin.com/in/not-me] #text(gray)[$space.hair$|$space.hair$] 123.456.7890
-
-== EDUCATION
-#chiline()
-
-*University of Lorem Ipsum* --- 4.0 GPA #h(1fr) #text(gray)[09/2022 -- 06/2025] \
-B.S. in Computer Science
-- _Selected Coursework:_ Algorithms and Complexity, Operating Systems, Software Construction
-- _Relevant Clubs & Societies:_ Association for Computing Machinery, Upsilon Pi Epsilon
+#link("mailto:resume@jimbalatero.com")[resume\@jimbalatero.com] #text(gray)[$space.hair$|$space.hair$]
++639262962751 #text(gray)[$space.hair$|$space.hair$]
+#link("https://www.linkedin.com/in/jbaltero")[linkedin.com/in/jbaltero] #text(gray)[$space.hair$|$space.hair$]
+Bago Gallera, Davao City, Davao Del Sur – 8000, Philippines
 
 == WORK EXPERIENCE
 #chiline()
 
-*Director of Lorem Ipsum* #h(1fr) #text(gray)[11/2023 -- present] \
-Lorem Ipsum Co. #text(gray)[--- _Los Angeles, CA_]
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
-- Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
-- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+*Senior Fullstack Engineer* #h(1fr) #text(gray)[Jan 2022 -- Jun 2023] \
+VebuLabs.com #text(gray)[--- _Remote - El Segundo, CA, USA_]
+- Collaborated with several engineers, i.e. Electronics Engr, Robotics Engr, Mechanical Engr, on a React/Typescript project that I lead to manage a fleet of robots.
+- Internal time tracking tool project using React Typescript, FastAPI, Postgres, & Superset.
+- Ordering Menu project using React Typescript for Boba drink vending machine robots
 
+*Fullstack Engineer* #h(1fr) #text(gray)[Mar 2020 -- Feb 2022] \
+TravelFreely.com #text(gray)[--- _Remote - Denver, Colorado, USA_]
+- Maintained and Improved TravelFreely.com, a full-stack Credit Card Rewards Tracker platform, using LEMP stack, CodeIgniter & JavaScript. It currently has 5/5 ratings 2.2k+ feedbacks in App Store & Google Play.
 
-*Project Manager* #h(1fr) #text(gray)[08/2022 -- 10/2022] \
-Random Company #text(gray)[--- _Remote_]
-- Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.
-- Ultrices tincidunt arcu non sodales neque sodales ut etiam.
-- Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus.
+*Head of Development / Solutions Architect* #h(1fr) #text(gray)[May 2016 -- Mar 2020] \
+OptiDig.com #text(gray)[--- _Remote - Lomma, Sweden_]
+- Developed an architecture to increase the throughput of sending millions of emails per hour. Using Golang, RabbitMQ, PowerMTA, producer-consumer strategy, I was able to reach 10M/hr from the client's requirement which is 5M/hr.
+- Developed Shopify app using ReactS and Laravel that integrates with an Email Marketing app.
+- Developed payment gateway integration using Stripe and Mangopay.
+- Implemented email authentication using DKIM, SPF, and DMARC to increase the inbox delivery rate.
+- Implemented software architectural patterns such as Clean Architecture, CQRS, DDD (Domain-driven design), MVC, Multitier architecture.
+- Implemented serverless architecture using AWS Lambda, S3, API Gateway, DynamoDB, Cloudfront, SQS, SNS, and Cloudwatch for an Email and SMS Marketing App.
 
-*Principal Maintainer* #h(1fr) #text(gray)[05/2021 -- 06/2022] \
-Condimentum Mattis #text(gray)[--- _New York, NY_] 
-- Aenean et tortor at risus. Porttitor leo a diam sollicitudin. Lorem ipsum dolor sit amet consectetur.
-- Tortor condimentum lacinia quis vel eros donec ac odio tempor. Libero justo laoreet sit amet. 
-
-*Software Engineer* #h(1fr) #text(gray)[10/2019 -- 09/2020] \
-Malesuada Bibendum #text(gray)[--- _Chicago, IL_]
-- Nibh cras pulvinar mattis nunc sed blandit libero volutpat.
-- Aliquam etiam erat velit scelerisque in dictum non. Porttitor eget dolor morbi non arcu.
-- Velit laoreet id donec ultrices tincidunt arcu. Et odio pellentesque diam volutpat commodo sed. Mauris pellentesque pulvinar pellentesque habitant.
+*Software Engineer* #h(1fr) #text(gray)[Dec 2015 -- May 2016] \
+Visp.net #text(gray)[--- _CGY, Philippines_]
+- Ported a legacy project from PHP to Python from scratch and saw an increase in throughput using the same server hardware specs.
 
 == PROJECTS
 #chiline()
@@ -68,3 +63,33 @@ Malesuada Bibendum #text(gray)[--- _Chicago, IL_]
 - *Backend* Python, Node, PostgreSQL, SQLite, Java, C++, Haskell, OCaml, Perl, Lua, REST APIs
 
 - *DevOps* Linux, CI/CD, Git, GitHub Actions, Docker, Bash, Agile
+
+== EDUCATION
+#chiline()
+
+*Xavier University - Ateneo de Cagayan* #h(1fr) #text(gray)[2011 -- 2015] \
+B.S. in Computer Science
+- _Selected Coursework:_ Algorithms and Complexity, Operating Systems, Software Construction
+- _Relevant Clubs & Societies:_ Association for Computing Machinery, Upsilon Pi Epsilon
+
+== Achievements
+#chiline()
+
+*Upwork - Top Rated Plus, 100% Job Success score* \
+1,700+ total hours
+
+*Passer - ICT (EDP) Proficiency Examination for Computer
+Programming* #h(1fr) #text(gray)[2017] \
+Issued by DICT, Philippines
+
+*Programmer of the Year* #h(1fr) #text(gray)[2015] \
+Issued by Xavier University - Ateneo de Cagayan
+
+*Dean's Lister* #h(1fr) #text(gray)[2014] \
+Xavier University - Ateneo de Cagayan
+
+*1st Runner Up - 1st DevCon Java Hackathon* #h(1fr) #text(gray)[2014] \
+
+== References
+#chiline()
+References available upon request

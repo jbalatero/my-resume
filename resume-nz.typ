@@ -10,12 +10,17 @@
 #let chiline() = {v(-2pt); line(length: 100%, stroke: rgb("#777777")); v(-5pt)}
 
 #text(15pt)[= JIM WELL JOHN BALATERO]
-#text(15pt)[Senior Fullstack Engineer]
+#text(15pt)[Senior Fullstack Engineer (React Typescript, Node, PHP, MySQL, Linux)]
 
 #link("mailto:resume@jimbalatero.com")[resume\@jimbalatero.com] #text(gray)[$space.hair$|$space.hair$]
 +639262962751 #text(gray)[$space.hair$|$space.hair$]
 #link("https://www.linkedin.com/in/jbaltero")[linkedin.com/in/jbaltero] #text(gray)[$space.hair$|$space.hair$]
 Bago Gallera, Davao City, Davao Del Sur – 8000, Philippines
+
+== OBJECTIVE
+#chiline()
+
+Dedicated and highly skilled Senior Fullstack Engineer with 8+ years of experience in designing, developing, and optimizing web applications, seeking to relocate to New Zealand to contribute my expertise to the country's thriving tech industry. Looking for an opportunity to make a meaningful impact and advance my career while embracing the Kiwi way of life.
 
 == WORK EXPERIENCE
 #chiline()
@@ -46,23 +51,34 @@ Visp.net #text(gray)[--- _CGY, Philippines_]
 == PROJECTS
 #chiline()
 
-*RandomProject* (#link("https://RandomProject.com/")[randomproject.com]) #h(1fr) #text(gray)[03/2023 -- 06/2023] \
-- Nunc aliquet bibendum enim facilisis gravida neque. Leo vel fringilla est ullamcorper.
-- Aenean euismod elementum nisi quis eleifend quam adipiscing vitae.
-- Faucibus turpis in eu mi bibendum neque egestas. Imperdiet proin fermentum leo vel orci. Augue eget arcu dictum varius duis at.
+*AldrinERP* (#link("https://www.onesolomons.com.au/")[onesolomons.com.au]) \
+Aldrin is an advanced software solution designed specifically for SMEs operating in the retail manufacturing sector. Tech stacks used: React Typescript, ExpressJS, MySQL, Event-sourcing implementation.
 
-*Generic Scraper* (#link("https://definitely-not-generic-scraper.com")[scraper.com]) #h(1fr) #text(gray)[08/2022 -- 05/2023] \
-- Ac tincidunt vitae semper quis. Sagittis orci a scelerisque purus semper.
-- Nullam eget felis eget nunc lobortis mattis aliquam faucibus purus. Quis auctor elit sed vulputate mi sit amet mauris commodo.
+*Bayrunon.com* \
+Personal bills tracking and management with pivot table reporting to display monthly dues. Tech stacks used: React Typescript, ExpressJS, MySQL, Event-sourcing implementation.
+
+*schoollab.dk* \
+Student's well-being, learnings, and internship management system. Tech stacks used: React Typescript, Symfony 5, MySQL, Docker
+
+*Family Baseline Record* \
+Developed a desktop app using ReactJS and Laravel, where a user can import Excel files and generate a printable PDF file based on the records from the file.
+
+*Headless CMS API for singaporebiennale.org* \
+Back-end developer of a headless CMS API using Directus 7 for https://www.singaporebiennale.org
+
+*PROGRAM DESTINY JODOH LIFE PARTNER* \
+A full-stack web application project developed for International Islamic Information & Daawah Centre(IIDAC) from Malaysia. It's composed of front-end registration system and a back-end dashboard for admins. Tech stacks used: CodeIgniter
 
 == SKILLS
 #chiline()
 
-- *Frontend* TypeScript, JavaScript, React, Redux, Next.js, HTML, CSS, Tailwind
+- *Frontend* TypeScript, JavaScript, React, React-Query
 
-- *Backend* Python, Node, PostgreSQL, SQLite, Java, C++, Haskell, OCaml, Perl, Lua, REST APIs
+- *Backend* PHP, NodeJS, PostgreSQL, SQLite, MySQL/MariaDB, MongoDB, Database Design,
 
-- *DevOps* Linux, CI/CD, Git, GitHub Actions, Docker, Bash, Agile
+- *DevOps* Linux, GitHub Actions, Docker, Bash scripting, Docker, Ansible
+
+- *Visualization* Apache Superset
 
 == EDUCATION
 #chiline()

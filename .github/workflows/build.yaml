@@ -28,7 +28,9 @@ jobs:
         id: date
         run: echo "DATE=$(date +%Y-%m-%d-%H-%M)" >> $GITHUB_ENV
 
-      - run: typst compile resume.typ "jim-b-resume-${{ env.DATE }}".pdf
+      - run: typst compile resume-nz.typ "jim-b-resume-nz-${{ env.DATE }}".pdf
+
+      - run: typst compile resume-generic.typ "jim-b-resume-generic-${{ env.DATE }}".pdf
 
       - name: Upload PDF file
         uses: actions/upload-artifact@v3

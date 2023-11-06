@@ -48,6 +48,19 @@ OptiDig.com #text(gray)[--- _Remote - Lomma, Sweden_]
 Visp.net #text(gray)[--- _CGY, Philippines_]
 - Ported a legacy project from PHP to Python from scratch and saw an increase in throughput using the same server hardware specs.
 
+== SKILLS
+#chiline()
+
+- *Frontend* TypeScript, JavaScript, React, React-Query
+
+- *Backend* PHP, NodeJS, PostgreSQL, SQLite, MySQL/MariaDB, MongoDB, Database Design,
+
+- *DevOps* Linux, GitHub Actions, Docker, Bash scripting, Docker, Ansible
+
+- *Visualization* Apache Superset
+
+#pagebreak()
+
 == PROJECTS
 #chiline()
 
@@ -68,17 +81,6 @@ Back-end developer of a headless CMS API using Directus 7 for https://www.singap
 
 *PROGRAM DESTINY JODOH LIFE PARTNER* \
 A full-stack web application project developed for International Islamic Information & Daawah Centre(IIDAC) from Malaysia. It's composed of front-end registration system and a back-end dashboard for admins. Tech stacks used: CodeIgniter
-
-== SKILLS
-#chiline()
-
-- *Frontend* TypeScript, JavaScript, React, React-Query
-
-- *Backend* PHP, NodeJS, PostgreSQL, SQLite, MySQL/MariaDB, MongoDB, Database Design,
-
-- *DevOps* Linux, GitHub Actions, Docker, Bash scripting, Docker, Ansible
-
-- *Visualization* Apache Superset
 
 == EDUCATION
 #chiline()

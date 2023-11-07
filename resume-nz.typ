@@ -107,7 +107,3 @@ Issued by Xavier University - Ateneo de Cagayan
 Xavier University - Ateneo de Cagayan
 
 *1st Runner Up - 1st DevCon Java Hackathon* #h(1fr) #text(gray)[2014] \
-
-== References
-#chiline()
-References available upon request

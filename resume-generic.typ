@@ -1,16 +1,23 @@
-#set text(font: "Inter", fill: rgb("#222222"), hyphenate: false)
+#set text(font: "Inter", fill: rgb("#222222"), size: 10pt, hyphenate: false)
 #show heading: set text(font: "General Sans", tracking: 1em/23)
 
 #show link: set text(10pt)
 #set page(
+ paper: "a4",
  margin: (x: 1.1cm, y: 1.3cm),
 )
 #set par(justify: true)
+#show par: set block(spacing: 2em)
 
 #let chiline() = {v(-2pt); line(length: 100%, stroke: rgb("#777777")); v(-5pt)}
 
 #text(15pt)[= JIM WELL JOHN BALATERO]
-#text(15pt)[Senior Fullstack Engineer (React Typescript, Node, PHP, MySQL, Linux)]
+#text(15pt)[
+ Senior Fullstack Engineer 8+ yrs
+ #text(11pt)[
+  (React Typescript, Node, PHP, MySQL, Linux)
+ ]
+]
 
 #link("mailto:resume@jimbalatero.com")[resume\@jimbalatero.com] #text(gray)[$space.hair$|$space.hair$] 
 +639262962751 #text(gray)[$space.hair$|$space.hair$] 
@@ -27,26 +34,27 @@ Dedicated and highly skilled Senior Fullstack Engineer with 8+ years of experien
 
 *Senior Fullstack Engineer* #h(1fr) #text(gray)[Jan 2022 -- Jun 2023] \
 VebuLabs.com #text(gray)[--- _Remote - El Segundo, CA, USA_]
-- Collaborated with several engineers, i.e. Electronics Engr, Robotics Engr, Mechanical Engr, on a React/Typescript project that I lead to manage a fleet of robots. 
-- Internal time tracking tool project using React Typescript, FastAPI, Postgres, & Superset.
-- Ordering Menu project using React Typescript for Boba drink vending machine robots 
+- Led a React/Typescript project, collaborating with various engineers such as Electronics, Robotics, and Mechanical engineers, to oversee the management of a fleet of robots.
+- Spearheaded the development of an internal time tracking tool utilizing React Typescript, FastAPI, Postgres, and Superset.
+- Executed a React Typescript project for the creation of an Ordering Menu system tailored for Boba drink vending machine robots.
 
 *Fullstack Engineer* #h(1fr) #text(gray)[Mar 2020 -- Feb 2022] \
 TravelFreely.com #text(gray)[--- _Remote - Denver, Colorado, USA_]
-- Maintained and Improved TravelFreely.com, a full-stack Credit Card Rewards Tracker platform, using LEMP stack, CodeIgniter & JavaScript. It currently has 5/5 ratings 2.2k+ feedbacks in App Store & Google Play.
+- Managed and enhanced TravelFreely.com, a comprehensive Credit Card Rewards Tracker platform, employing the LEMP stack, CodeIgniter, and JavaScript. The platform boasts a stellar 5/5 rating with over 2.2k feedbacks on both the App Store and Google Play.
 
 *Head of Development / Solutions Architect* #h(1fr) #text(gray)[May 2016 -- Mar 2020] \
-OptiDig.com #text(gray)[--- _Remote - Lomma, Sweden_] 
-- Developed an architecture to increase the throughput of sending millions of emails per hour. Using Golang, RabbitMQ, PowerMTA, producer-consumer strategy, I was able to reach 10M/hr from the client's requirement which is 5M/hr.
-- Developed Shopify app using ReactS and Laravel that integrates with an Email Marketing app.
-- Developed payment gateway integration using Stripe and Mangopay.
-- Implemented email authentication using DKIM, SPF, and DMARC to increase the inbox delivery rate.
-- Implemented software architectural patterns such as Clean Architecture, CQRS, DDD (Domain-driven design), MVC, Multitier architecture.
-- Implemented serverless architecture using AWS Lambda, S3, API Gateway, DynamoDB, Cloudfront, SQS, SNS, and Cloudwatch for an Email and SMS Marketing App.
+OptiDig.com #text(gray)[--- _Remote - Lomma, Sweden_]
+- Managed a remote team of developers, overseeing the efficient development and maintenance of OptiDig's Email and SMS Marketing application.
+- Engineered an architecture aimed at enhancing email throughput, achieving a rate of 10 million emails per hour using Golang, RabbitMQ, PowerMTA, and a producer-consumer strategy, surpassing the client's requirement of 5 million emails per hour.
+- Created a Shopify app utilizing ReactJS and Laravel that seamlessly integrates with an Email Marketing app.
+- Implemented payment gateway integration through Stripe and Mangopay.
+- Implemented email authentication protocols, including DKIM, SPF, and DMARC, to optimize inbox delivery rates.
+- Applied various software architectural patterns, such as Clean Architecture, CQRS, DDD (Domain-driven design), MVC, and Multitier architecture.
+- Established a serverless architecture using AWS Lambda, S3, API Gateway, DynamoDB, Cloudfront, SQS, SNS, and Cloudwatch for an Email and SMS Marketing App.
 
 *Software Engineer* #h(1fr) #text(gray)[Dec 2015 -- May 2016] \
 Visp.net #text(gray)[--- _CGY, Philippines_]
-- Ported a legacy project from PHP to Python from scratch and saw an increase in throughput using the same server hardware specs.
+- Successfully migrated a legacy project from PHP to Python, starting from the ground up, and witnessed a notable increase in throughput while maintaining the same server hardware specifications.
 
 == SKILLS
 #chiline()
